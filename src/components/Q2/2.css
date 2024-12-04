@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .app-container {
+    text-align: center;
+    background-color: #ff5e5e;
+    border-radius: 15px;
+    padding: 20px 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .counter-display h1 {
+    color: #fff;
+    font-size: 4rem;
+    margin: 0 0 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .increment {
+    background-color: #4caf50;
+  }
+  
+  .increment:hover {
+    background-color: #45a049;
+  }
+  
+  .decrement {
+    background-color: #f44336;
+  }
+  
+  .decrement:hover {
+    background-color: #e53935;
+  }
+  
